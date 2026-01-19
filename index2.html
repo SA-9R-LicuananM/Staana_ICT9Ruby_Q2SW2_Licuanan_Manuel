@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact Us Page</title>
+  <meta name="contacthing" content="width=device-width">
+  
+  <style>
+    body {
+      font-family:cursive;
+      background: image(https://www.thediarist.ph/wp-content/uploads/2023/05/A-look-at-the-OBMC-bistro-e1682997301805.jpeg);
+      margin: 0;
+    }
+
+why dont the image work
+
+
+
+    .topnav input {
+      margin-left: auto;
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: none;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      outline: none;
+    }
+
+    .topnav input:focus {
+      box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+    }
+
+
+     {
+      text-align: center;
+      color: #024A85;
+      font-weight: 700;
+      margin-bottom: 25px;
+    }
+
+    table {
+      width: 90%; 
+      margin: 0 auto;
+      border-collapse: collapse;
+      color: #216195;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      font-weight: 600;
+    }
+
+    .row {
+      display: flex;
+      gap: 15px;
+    }
+
+    .field {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 18px;
+    }
+
+    label {
+      font-size: 13px;
+      margin-bottom: 6px;
+      color: #024A85;
+      font-weight: 500;
+    }
+
+    input, textarea {
+      padding: 12px;
+      border-radius: 8px;
+      border: none;
+      background: #f2f2f2;
+      font-size: 14px;
+      outline: none;
+      line-height: 1.4;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: none;  
+      min-height: 100px; 
+    }
+
+    input:focus, textarea:focus {
+      background: #ffffff;
+      box-shadow: 0 0 0 2px rgba(2,74,133,0.2);
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background: #024A85;
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #013b6b;
+    }
+
+    footer {
+      background: #024A85;
+      color: #ffffff;
+      text-align: center;
+      padding: 12px;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 500px) {
+      .row {
+        flex-direction: column;
+      }
+
+      
+    
+      }
+  </style>
+</head>
+
+<body>
+
+  <div class="navbar">
+
+    <input type="text" placeholder="Search...">
+  </div>
+
+  <div class="card">
+    <h2>Office Information</h2>
+    <table>
+    
+      <tr>
+        <td>Monday</td>
+        <td>8:00 – 16:00</td>
+        <td>Register</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>8:00 – 16:00</td>
+        <td>Accounting</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>8:00 – 16:00</td>
+        <td>Guidance</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>8:00 – 16:00</td>
+        <td>Principal</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>8:00 – 15:00</td>
+        <td>Admin</td>
+      </tr>
+    </table>
+  </div>
+
+    <h1>Contact Us</h1>
+
+    <div class="row">
+      <div class="field">
+        <label>First Name</label>
+        <input type="text" required>
+      </div>
+      <div class="field">
+        <label>Last Name</label>
+        <input type="text" required>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <label>Email</label>
+        <input type="email" required>
+      </div>
+      <div class="field">
+        <label>Phone</label>
+        <input type="tel">
+      </div>
+    </div>
+
+    <div class="field">
+      <label>Message</label>
+      <textarea rows="5" required></textarea>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <footer>
+  </footer>
+
+</body>
+</html>
