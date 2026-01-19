@@ -1,0 +1,2 @@
+# Staana_ICT9Ruby_Q2SW2_Licuanan_Manuel
+nagiging pasta
